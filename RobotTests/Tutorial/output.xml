@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20150519 11:12:13.485" generator="Robot 2.8.7 (Python 2.7.9 on win32)">
+<suite source="C:\Users\ascott\workspace\RobotTests\Tutorial\tutorial.robot" id="s1" name="Tutorial">
+<test id="s1-t1" name="User must sign in to check out">
+<kw type="kw" name="Open Browser">
+<doc></doc>
+<arguments>
+<arg>http://www.amazom.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20150519 11:12:13.532" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" endtime="20150519 11:12:13.532" starttime="20150519 11:12:13.532"></status>
+</kw>
+<doc>This is some basic info</doc>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="FAIL" endtime="20150519 11:12:13.532" critical="yes" starttime="20150519 11:12:13.532">No keyword with name 'Open Browser' found.</status>
+</test>
+<doc>Basic info</doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150519 11:12:13.547" starttime="20150519 11:12:13.485"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+<stat info="" links="" doc="" combined="" pass="0" fail="1">Smoke</stat>
+</tag>
+<suite>
+<stat fail="1" pass="0" id="s1" name="Tutorial">Tutorial</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20150519 11:12:13.469" level="ERROR">Error in file 'C:\Users\ascott\workspace\RobotTests\Tutorial\tutorial.robot': Non-existing setting 'Library Selenium2Library'.</msg>
+</errors>
+</robot>

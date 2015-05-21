@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SilkPerformerLog version="1"
+                  buildInfo="Generated with Silk Performer 15.5.0.6260"
+                  script="" usergroup="" profile="" perspective="TruelogViewer"
+                  interfaces="SILKTEST">
+  <Transaction id="3" time="2015-05-19; 12:41:40"
+               timeStamp="|40|41|12|19|4|115|2|138|1|" tick="13156999"
+               file="C:\Users\ascott\workspace\Test Scripts\VectorPort\test1.t"
+               bdlLine="0" transidx="1">
+    Script test1.t
+  </Transaction>
+  <SilkTestDoc id="4" time="2015-05-19; 12:41:40"
+               timeStamp="|40|41|12|19|4|115|2|138|1|" tick="13156999"
+               ApiHandle="" file="" bdlLine="0" status="0" ApiCtxt="//*/*[3]"
+               ApiRefType="parent">
+    Testcase Test1
+  </SilkTestDoc>
+  <SilkTestDoc id="5" time="2015-05-19; 12:41:40"
+               timeStamp="|40|41|12|19|4|115|2|138|1|" tick="13157217"
+               ApiHandle="" file="" bdlLine="0" status="0" ApiCtxt="//*/*[4]"
+               ApiRefType="parent">
+    Select item &apos;STIL&apos;
+  </SilkTestDoc>
+  <Apiinfo id="6" time="2015-05-19; 12:41:40"
+           timeStamp="|40|41|12|19|4|115|2|138|1|" idx="//*/*[5]" severity="0">
+    JComboBox.Select(item: STIL)
+  </Apiinfo>
+  <Apiinfo id="7" time="2015-05-19; 12:41:40"
+           timeStamp="|40|41|12|19|4|115|2|138|1|" idx="//*/*[5]" severity="0">
+    Locator: //JComboBox[@priorlabel=&apos;Reader&apos;]
+  </Apiinfo>
+  <ApiProp id="8" apicall="//*/*[5]" propId="0" propName="CS">Test1|C:\Users\ascott\workspace\Test Scripts\VectorPort\test1.t|3|</ApiProp>
+  <ApiProp id="9" apicall="//*/*[5]" propId="3" propName="ROOT"></ApiProp>
+  <ApiProp id="10" apicall="//*/*[5]" propId="3" propName="CID">3</ApiProp>
+  <ApiProp id="11" apicall="//*/*[5]" propId="3" propName="ID"></ApiProp>
+  <ApiProp id="12" apicall="//*/*[5]" propId="3" propName="V"></ApiProp>
+  <ApiProp id="13" apicall="//*/*[5]" propId="3" propName="TN"></ApiProp>
+  <ApiProp id="14" apicall="//*/*[5]" propId="3" propName="T">0</ApiProp>
+  <ApiProp id="15" apicall="//*/*[5]" propId="3" propName="BID"></ApiProp>
+  <ApiProp id="16" apicall="//*/*[5]" propId="3" propName="PID">0</ApiProp>
+  <SilkTestDoc id="17" time="2015-05-19; 12:41:40"
+               timeStamp="|40|41|12|19|4|115|2|138|1|" tick="13157280"
+               ApiHandle="" file="" bdlLine="0" status="0" ApiCtxt="//*/*[4]"
+               ApiRefType="parent">
+    Select item &apos;Teradyne J750 / FLEX&apos;
+  </SilkTestDoc>
+  <Apiinfo id="18" time="2015-05-19; 12:41:40"
+           timeStamp="|40|41|12|19|4|115|2|138|1|" idx="//*/*[17]" severity="0">
+    JComboBox.Select(item: Teradyne J750 / FLEX)
+  </Apiinfo>
+  <Apiinfo id="19" time="2015-05-19; 12:41:40"
+           timeStamp="|40|41|12|19|4|115|2|138|1|" idx="//*/*[17]" severity="0">
+    Locator: //JComboBox[@priorlabel=&apos;Writer&apos;]
+  </Apiinfo>
+  <ApiProp id="20" apicall="//*/*[17]" propId="0" propName="CS">Test1|C:\Users\ascott\workspace\Test Scripts\VectorPort\test1.t|4|</ApiProp>
+  <ApiProp id="21" apicall="//*/*[17]" propId="4" propName="ROOT"></ApiProp>
+  <ApiProp id="22" apicall="//*/*[17]" propId="4" propName="CID">4</ApiProp>
+  <ApiProp id="23" apicall="//*/*[17]" propId="4" propName="ID"></ApiProp>
+  <ApiProp id="24" apicall="//*/*[17]" propId="4" propName="V"></ApiProp>
+  <ApiProp id="25" apicall="//*/*[17]" propId="4" propName="TN"></ApiProp>
+  <ApiProp id="26" apicall="//*/*[17]" propId="4" propName="T">0</ApiProp>
+  <ApiProp id="27" apicall="//*/*[17]" propId="4" propName="BID"></ApiProp>
+  <ApiProp id="28" apicall="//*/*[17]" propId="4" propName="PID">0</ApiProp>
+  <SilkTestDoc id="29" time="2015-05-19; 12:41:40"
+               timeStamp="|40|41|12|19|4|115|2|138|1|" tick="13157327"
+               ApiHandle="" file="" bdlLine="0" status="0" ApiCtxt="//*/*[4]"
+               ApiRefType="parent">
+    Uncheck check box &apos;Display Signal Editor&apos;
+  </SilkTestDoc>
+  <Apiinfo id="30" time="2015-05-19; 12:41:40"
+           timeStamp="|40|41|12|19|4|115|2|138|1|" idx="//*/*[29]" severity="0">
+    JCheckBox.Uncheck()
+  </Apiinfo>
+  <Apiinfo id="31" time="2015-05-19; 12:41:40"
+           timeStamp="|40|41|12|19|4|115|2|138|1|" idx="//*/*[29]" severity="0">
+    Locator: //JCheckBox[@caption=&apos;Display Signal Editor&apos;]
+  </Apiinfo>
+  <ApiProp id="32" apicall="//*/*[29]" propId="0" propName="CS">Test1|C:\Users\ascott\workspace\Test Scripts\VectorPort\test1.t|5|</ApiProp>
+  <ApiProp id="33" apicall="//*/*[29]" propId="5" propName="ROOT"></ApiProp>
+  <ApiProp id="34" apicall="//*/*[29]" propId="5" propName="CID">5</ApiProp>
+  <ApiProp id="35" apicall="//*/*[29]" propId="5" propName="ID"></ApiProp>
+  <ApiProp id="36" apicall="//*/*[29]" propId="5" propName="V"></ApiProp>
+  <ApiProp id="37" apicall="//*/*[29]" propId="5" propName="TN"></ApiProp>
+  <ApiProp id="38" apicall="//*/*[29]" propId="5" propName="T">0</ApiProp>
+  <ApiProp id="39" apicall="//*/*[29]" propId="5" propName="BID"></ApiProp>
+  <ApiProp id="40" apicall="//*/*[29]" propId="5" propName="PID">0</ApiProp>
+  <SilkTestDoc id="41" time="2015-05-19; 12:41:40"
+               timeStamp="|40|41|12|19|4|115|2|138|1|" tick="13157373"
+               ApiHandle="" file="" bdlLine="0" status="0" ApiCtxt="//*/*[4]"
+               ApiRefType="parent">
+    Check check box &apos;Display Signal Editor&apos;
+  </SilkTestDoc>
+  <Apiinfo id="42" time="2015-05-19; 12:41:40"
+           timeStamp="|40|41|12|19|4|115|2|138|1|" idx="//*/*[41]" severity="0">
+    JCheckBox.Check()
+  </Apiinfo>
+  <Apiinfo id="43" time="2015-05-19; 12:41:40"
+           timeStamp="|40|41|12|19|4|115|2|138|1|" idx="//*/*[41]" severity="0">
+    Locator: //JCheckBox[@caption=&apos;Display Signal Editor&apos;]
+  </Apiinfo>
+  <ApiProp id="44" apicall="//*/*[41]" propId="0" propName="CS">Test1|C:\Users\ascott\workspace\Test Scripts\VectorPort\test1.t|6|</ApiProp>
+  <ApiProp id="45" apicall="//*/*[41]" propId="6" propName="ROOT"></ApiProp>
+  <ApiProp id="46" apicall="//*/*[41]" propId="6" propName="CID">6</ApiProp>
+  <ApiProp id="47" apicall="//*/*[41]" propId="6" propName="ID"></ApiProp>
+  <ApiProp id="48" apicall="//*/*[41]" propId="6" propName="V"></ApiProp>
+  <ApiProp id="49" apicall="//*/*[41]" propId="6" propName="TN"></ApiProp>
+  <ApiProp id="50" apicall="//*/*[41]" propId="6" propName="T">0</ApiProp>
+  <ApiProp id="51" apicall="//*/*[41]" propId="6" propName="BID"></ApiProp>
+  <ApiProp id="52" apicall="//*/*[41]" propId="6" propName="PID">0</ApiProp>
+  <SilkTestDoc id="53" time="2015-05-19; 12:41:40"
+               timeStamp="|40|41|12|19|4|115|2|138|1|" tick="13157420"
+               ApiHandle="" file="" bdlLine="0" status="0" ApiCtxt="//*/*[4]"
+               ApiRefType="parent">
+    Uncheck check box &apos;Display Signal Editor&apos;
+  </SilkTestDoc>
+  <Apiinfo id="54" time="2015-05-19; 12:41:40"
+           timeStamp="|40|41|12|19|4|115|2|138|1|" idx="//*/*[53]" severity="0">
+    JCheckBox.Uncheck()
+  </Apiinfo>
+  <Apiinfo id="55" time="2015-05-19; 12:41:40"
+           timeStamp="|40|41|12|19|4|115|2|138|1|" idx="//*/*[53]" severity="0">
+    Locator: //JCheckBox[@caption=&apos;Display Signal Editor&apos;]
+  </Apiinfo>
+  <ApiProp id="56" apicall="//*/*[53]" propId="0" propName="CS">Test1|C:\Users\ascott\workspace\Test Scripts\VectorPort\test1.t|7|</ApiProp>
+  <ApiProp id="57" apicall="//*/*[53]" propId="7" propName="ROOT"></ApiProp>
+  <ApiProp id="58" apicall="//*/*[53]" propId="7" propName="CID">7</ApiProp>
+  <ApiProp id="59" apicall="//*/*[53]" propId="7" propName="ID"></ApiProp>
+  <ApiProp id="60" apicall="//*/*[53]" propId="7" propName="V"></ApiProp>
+  <ApiProp id="61" apicall="//*/*[53]" propId="7" propName="TN"></ApiProp>
+  <ApiProp id="62" apicall="//*/*[53]" propId="7" propName="T">0</ApiProp>
+  <ApiProp id="63" apicall="//*/*[53]" propId="7" propName="BID"></ApiProp>
+  <ApiProp id="64" apicall="//*/*[53]" propId="7" propName="PID">0</ApiProp>
+  <SilkTestDoc id="65" time="2015-05-19; 12:41:40"
+               timeStamp="|40|41|12|19|4|115|2|138|1|" tick="13157451"
+               ApiHandle="" file="" bdlLine="0" status="0" ApiCtxt="//*/*[4]"
+               ApiRefType="parent">
+    Uncheck check box &apos;Display Timeset Editor&apos;
+  </SilkTestDoc>
+  <Apiinfo id="66" time="2015-05-19; 12:41:40"
+           timeStamp="|40|41|12|19|4|115|2|138|1|" idx="//*/*[65]" severity="0">
+    JCheckBox.Uncheck()
+  </Apiinfo>
+  <Apiinfo id="67" time="2015-05-19; 12:41:40"
+           timeStamp="|40|41|12|19|4|115|2|138|1|" idx="//*/*[65]" severity="0">
+    Locator: //JCheckBox[@caption=&apos;Display Timeset Editor&apos;]
+  </Apiinfo>
+  <ApiProp id="68" apicall="//*/*[65]" propId="0" propName="CS">Test1|C:\Users\ascott\workspace\Test Scripts\VectorPort\test1.t|8|</ApiProp>
+  <ApiProp id="69" apicall="//*/*[65]" propId="8" propName="ROOT"></ApiProp>
+  <ApiProp id="70" apicall="//*/*[65]" propId="8" propName="CID">8</ApiProp>
+  <ApiProp id="71" apicall="//*/*[65]" propId="8" propName="ID"></ApiProp>
+  <ApiProp id="72" apicall="//*/*[65]" propId="8" propName="V"></ApiProp>
+  <ApiProp id="73" apicall="//*/*[65]" propId="8" propName="TN"></ApiProp>
+  <ApiProp id="74" apicall="//*/*[65]" propId="8" propName="T">0</ApiProp>
+  <ApiProp id="75" apicall="//*/*[65]" propId="8" propName="BID"></ApiProp>
+  <ApiProp id="76" apicall="//*/*[65]" propId="8" propName="PID">0</ApiProp>
+  <SilkTestDoc id="77" time="2015-05-19; 12:41:40"
+               timeStamp="|40|41|12|19|4|115|2|138|1|" tick="13157498"
+               ApiHandle="" file="" bdlLine="0" status="0" ApiCtxt="//*/*[4]"
+               ApiRefType="parent">
+    Check check box &apos;Display Timeset Editor&apos;
+  </SilkTestDoc>
+  <Apiinfo id="78" time="2015-05-19; 12:41:40"
+           timeStamp="|40|41|12|19|4|115|2|138|1|" idx="//*/*[77]" severity="0">
+    JCheckBox.Check()
+  </Apiinfo>
+  <Apiinfo id="79" time="2015-05-19; 12:41:40"
+           timeStamp="|40|41|12|19|4|115|2|138|1|" idx="//*/*[77]" severity="0">
+    Locator: //JCheckBox[@caption=&apos;Display Timeset Editor&apos;]
+  </Apiinfo>
+  <ApiProp id="80" apicall="//*/*[77]" propId="0" propName="CS">Test1|C:\Users\ascott\workspace\Test Scripts\VectorPort\test1.t|9|</ApiProp>
+  <ApiProp id="81" apicall="//*/*[77]" propId="9" propName="ROOT"></ApiProp>
+  <ApiProp id="82" apicall="//*/*[77]" propId="9" propName="CID">9</ApiProp>
+  <ApiProp id="83" apicall="//*/*[77]" propId="9" propName="ID"></ApiProp>
+  <ApiProp id="84" apicall="//*/*[77]" propId="9" propName="V"></ApiProp>
+  <ApiProp id="85" apicall="//*/*[77]" propId="9" propName="TN"></ApiProp>
+  <ApiProp id="86" apicall="//*/*[77]" propId="9" propName="T">0</ApiProp>
+  <ApiProp id="87" apicall="//*/*[77]" propId="9" propName="BID"></ApiProp>
+  <ApiProp id="88" apicall="//*/*[77]" propId="9" propName="PID">0</ApiProp>
+  <SilkTestDoc id="89" time="2015-05-19; 12:41:40"
+               timeStamp="|40|41|12|19|4|115|2|138|1|" tick="13157545"
+               ApiHandle="" file="" bdlLine="0" status="0" ApiCtxt="//*/*[4]"
+               ApiRefType="parent">
+    Check check box &apos;Repeat Compression&apos;
+  </SilkTestDoc>
+  <Apiinfo id="90" time="2015-05-19; 12:41:40"
+           timeStamp="|40|41|12|19|4|115|2|138|1|" idx="//*/*[89]" severity="0">
+    JCheckBox.Check()
+  </Apiinfo>
+  <Apiinfo id="91" time="2015-05-19; 12:41:40"
+           timeStamp="|40|41|12|19|4|115|2|138|1|" idx="//*/*[89]" severity="0">
+    Locator: //JCheckBox[@caption=&apos;Repeat Compression&apos;]
+  </Apiinfo>
+  <ApiProp id="92" apicall="//*/*[89]" propId="0" propName="CS">Test1|C:\Users\ascott\workspace\Test Scripts\VectorPort\test1.t|10|</ApiProp>
+  <ApiProp id="93" apicall="//*/*[89]" propId="10" propName="ROOT"></ApiProp>
+  <ApiProp id="94" apicall="//*/*[89]" propId="10" propName="CID">10</ApiProp>
+  <ApiProp id="95" apicall="//*/*[89]" propId="10" propName="ID"></ApiProp>
+  <ApiProp id="96" apicall="//*/*[89]" propId="10" propName="V"></ApiProp>
+  <ApiProp id="97" apicall="//*/*[89]" propId="10" propName="TN"></ApiProp>
+  <ApiProp id="98" apicall="//*/*[89]" propId="10" propName="T">0</ApiProp>
+  <ApiProp id="99" apicall="//*/*[89]" propId="10" propName="BID"></ApiProp>
+  <ApiProp id="100" apicall="//*/*[89]" propId="10" propName="PID">0</ApiProp>
+  <SilkTestDoc id="101" time="2015-05-19; 12:41:40"
+               timeStamp="|40|41|12|19|4|115|2|138|1|" tick="13157576"
+               ApiHandle="" file="" bdlLine="0" status="0" ApiCtxt="//*/*[4]"
+               ApiRefType="parent">
+    Uncheck check box &apos;Repeat Compression&apos;
+  </SilkTestDoc>
+  <Apiinfo id="102" time="2015-05-19; 12:41:40"
+           timeStamp="|40|41|12|19|4|115|2|138|1|" idx="//*/*[101]" severity="0">
+    JCheckBox.Uncheck()
+  </Apiinfo>
+  <Apiinfo id="103" time="2015-05-19; 12:41:40"
+           timeStamp="|40|41|12|19|4|115|2|138|1|" idx="//*/*[101]" severity="0">
+    Locator: //JCheckBox[@caption=&apos;Repeat Compression&apos;]
+  </Apiinfo>
+  <ApiProp id="104" apicall="//*/*[101]" propId="0" propName="CS">Test1|C:\Users\ascott\workspace\Test Scripts\VectorPort\test1.t|11|</ApiProp>
+  <ApiProp id="105" apicall="//*/*[101]" propId="11" propName="ROOT"></ApiProp>
+  <ApiProp id="106" apicall="//*/*[101]" propId="11" propName="CID">11</ApiProp>
+  <ApiProp id="107" apicall="//*/*[101]" propId="11" propName="ID"></ApiProp>
+  <ApiProp id="108" apicall="//*/*[101]" propId="11" propName="V"></ApiProp>
+  <ApiProp id="109" apicall="//*/*[101]" propId="11" propName="TN"></ApiProp>
+  <ApiProp id="110" apicall="//*/*[101]" propId="11" propName="T">0</ApiProp>
+  <ApiProp id="111" apicall="//*/*[101]" propId="11" propName="BID"></ApiProp>
+  <ApiProp id="112" apicall="//*/*[101]" propId="11" propName="PID">0</ApiProp>
+  <SilkTestDoc id="113" time="2015-05-19; 12:41:40"
+               timeStamp="|40|41|12|19|4|115|2|138|1|" tick="13157685"
+               ApiHandle="" file="" bdlLine="0" status="0" ApiCtxt="//*/*[4]"
+               ApiRefType="parent">
+    Click button &apos;Stop Converter&apos;
+  </SilkTestDoc>
+  <Apiinfo id="114" time="2015-05-19; 12:41:40"
+           timeStamp="|40|41|12|19|4|115|2|138|1|" idx="//*/*[113]" severity="0">
+    JButton.Select()
+  </Apiinfo>
+  <Apiinfo id="115" time="2015-05-19; 12:41:40"
+           timeStamp="|40|41|12|19|4|115|2|138|1|" idx="//*/*[113]" severity="0">
+    Locator: //JButton[@caption=&apos;Stop Converter&apos;]
+  </Apiinfo>
+  <ApiProp id="116" apicall="//*/*[113]" propId="0" propName="CS">Test1|C:\Users\ascott\workspace\Test Scripts\VectorPort\test1.t|12|</ApiProp>
+  <ApiProp id="117" apicall="//*/*[113]" propId="12" propName="ROOT"></ApiProp>
+  <ApiProp id="118" apicall="//*/*[113]" propId="12" propName="CID">12</ApiProp>
+  <ApiProp id="119" apicall="//*/*[113]" propId="12" propName="ID"></ApiProp>
+  <ApiProp id="120" apicall="//*/*[113]" propId="12" propName="V"></ApiProp>
+  <ApiProp id="121" apicall="//*/*[113]" propId="12" propName="TN"></ApiProp>
+  <ApiProp id="122" apicall="//*/*[113]" propId="12" propName="T">0</ApiProp>
+  <ApiProp id="123" apicall="//*/*[113]" propId="12" propName="BID"></ApiProp>
+  <ApiProp id="124" apicall="//*/*[113]" propId="12" propName="PID">0</ApiProp>
+  <SilkTestDoc id="125" time="2015-05-19; 12:41:40"
+               timeStamp="|40|41|12|19|4|115|2|138|1|" tick="13157763"
+               ApiHandle="" file="" bdlLine="0" status="0" ApiCtxt="//*/*[4]"
+               ApiRefType="parent">
+    Click button &apos;Clear Output&apos;
+  </SilkTestDoc>
+  <Apiinfo id="126" time="2015-05-19; 12:41:40"
+           timeStamp="|40|41|12|19|4|115|2|138|1|" idx="//*/*[125]" severity="0">
+    JButton.Select()
+  </Apiinfo>
+  <Apiinfo id="127" time="2015-05-19; 12:41:40"
+           timeStamp="|40|41|12|19|4|115|2|138|1|" idx="//*/*[125]" severity="0">
+    Locator: //JButton[@caption=&apos;Clear Output&apos;]
+  </Apiinfo>
+  <ApiProp id="128" apicall="//*/*[125]" propId="0" propName="CS">Test1|C:\Users\ascott\workspace\Test Scripts\VectorPort\test1.t|13|</ApiProp>
+  <ApiProp id="129" apicall="//*/*[125]" propId="13" propName="ROOT"></ApiProp>
+  <ApiProp id="130" apicall="//*/*[125]" propId="13" propName="CID">13</ApiProp>
+  <ApiProp id="131" apicall="//*/*[125]" propId="13" propName="ID"></ApiProp>
+  <ApiProp id="132" apicall="//*/*[125]" propId="13" propName="V"></ApiProp>
+  <ApiProp id="133" apicall="//*/*[125]" propId="13" propName="TN"></ApiProp>
+  <ApiProp id="134" apicall="//*/*[125]" propId="13" propName="T">0</ApiProp>
+  <ApiProp id="135" apicall="//*/*[125]" propId="13" propName="BID"></ApiProp>
+  <ApiProp id="136" apicall="//*/*[125]" propId="13" propName="PID">0</ApiProp>
+  <Apiinfo id="137" time="2015-05-19; 12:41:40"
+           timeStamp="|40|41|12|19|4|115|2|138|1|" idx="//*/*[4]" severity="0">
+    Elapsed Time: 00:00:01
+  </Apiinfo>
+  <Apiinfo id="138" time="2015-05-19; 12:41:40"
+           timeStamp="|40|41|12|19|4|115|2|138|1|" idx="//*/*[3]" severity="0">
+    Elapsed Time: 00:00:01
+  </Apiinfo>
+</SilkPerformerLog>
